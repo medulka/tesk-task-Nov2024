@@ -1,0 +1,47 @@
+{
+    "payload": {
+        "@context": [
+            "https://www.w3.org/ns/did/v1",
+            "https://w3id.org/security/v1"
+        ],
+        "id": "did:elsi:packetdelivery",
+        "verificationMethod": [
+            {
+                "id": "did:elsi:packetdelivery#key-assertion",
+                "type": "JsonWebKey2020",
+                "controller": "did:elsi:packetdelivery",
+                "publicKeyJwk": {
+                    "kid": "key-assertion",
+                    "kty": "RSA",
+                    "x5c": [
+                        "MIIGCDCCA/CgAwIB...AgICEAQwDQYJKiDpAqGObwT"
+                    ]
+                }
+            }
+        ],
+        "service": [
+            {
+                "id": "did:elsi:packetdelivery#capabilities",
+                "type": "capabilities",
+                "description": "Retrieves iSHARE capabilities",
+                "serviceEndpoint": "https://www.packetdelivery.com/capabilities",
+                "token_endpoint": "https://www.packetdelivery.com/connect/token"
+            },
+            {
+                "id": "did:elsi:packetdelivery#token",
+                "type": "access token",
+                "description": "Obtains access token",
+                "serviceEndpoint": "https://www.packetdelivery.com/connect/token"
+            },
+            {
+                "id": "did:elsi:packetdelivery#info",
+                "type": "EntityCommercialInfo",
+                "description": "Retrieves commercial information about entity",
+                "serviceEndpoint": "https://www.packetdelivery.com/info",
+                "name": "Packet Delivery co."
+            }
+        ],
+        "created": "2021-11-14T13:02:37Z",
+        "updated": "2021-11-14T13:02:37Z"
+    }
+}

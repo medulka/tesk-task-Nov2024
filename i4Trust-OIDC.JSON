@@ -1,0 +1,17 @@
+{
+    "iss": "EU.EORI.NLMARKETPLA", 
+    "sub": "EU.EORI.NLMARKETPLA", 
+    "aud": "EU.EORI.NLPACKETDEL",
+    "jti": "378a47c4-2822-4ca5-a49a-7e5a1cc7ea59", 
+    "iat": 1504683445,
+    "exp": 1504683475,
+    "nbf": 1504683445,
+    "response_type": "code",
+    "client_id": "EU.EORI.NLPACKETDEL",
+    "scope": "openid iSHARE sub name contact_details",
+    "redirect_uri": "https://marketplace.i4trust-demo.fiware.dev/openid_connect1.0/return",
+    "state": "af0ifjsldkj",
+    "nonce": "c428224ca5a",
+    "acr_values": "urn:http://eidas.europa.eu/LoA/NotNotified/high",
+    "language": "en"
+}
