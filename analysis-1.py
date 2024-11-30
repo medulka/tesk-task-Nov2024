@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
 import json
-import re
-from datetime import datetime
 
 # with open(file="/Users/hanamedova/Documents/Gaia-X/building-blocks/test-task/i4Trust-OIDC.json") as f:
 #     data = json.load(f)
@@ -33,7 +31,7 @@ for i in data:
     else: 
         pass
 
-print("Standards check done. Parsing finished.")
+print("Check of standards  done. Parsing finished.")
 
 
 
